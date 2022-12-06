@@ -12,7 +12,7 @@ RESULTS_PER_PAGE = 40
 zillow_link_ryan = "https://www.zillow.com/homes/for_sale/?searchQueryState=%7B%22mapBounds%22%3A%7B%22north%22%3A31.893006598603296%2C%22east%22%3A-95.3275654771593%2C%22south%22%3A31.507433081588047%2C%22west%22%3A-95.80135087754992%7D%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22sort%22%3A%7B%22value%22%3A%22globalrelevanceex%22%7D%2C%22sf%22%3A%7B%22value%22%3Afalse%7D%2C%22con%22%3A%7B%22value%22%3Afalse%7D%2C%22mf%22%3A%7B%22value%22%3Afalse%7D%2C%22manu%22%3A%7B%22value%22%3Afalse%7D%2C%22tow%22%3A%7B%22value%22%3Afalse%7D%2C%22apa%22%3A%7B%22value%22%3Afalse%7D%2C%22apco%22%3A%7B%22value%22%3Afalse%7D%2C%22price%22%3A%7B%22max%22%3A20000%7D%2C%22mp%22%3A%7B%22max%22%3A93%7D%7D%2C%22isListVisible%22%3Atrue%2C%22regionSelection%22%3A%5B%5D%2C%22pagination%22%3A%7B%7D%2C%22mapZoom%22%3A11%7D"
 
 class ScrapeBot:
-    """Bot to scrape1"""
+    """Bot to scrape"""
     def __init__(self):
         self.service = Service(executable_path="/Users/bradleythomas/Development/chromedriver")
         self.results_per_page = 40
